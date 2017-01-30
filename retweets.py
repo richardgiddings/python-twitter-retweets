@@ -1,5 +1,6 @@
 #
-# Purpose: Gets up to 95 of the most recent user handles who retweeted a tweet
+# Purpose: Using Python get the 95 (up to) most recent user 
+#          handles who retweeted a tweet.
 #
 # Requires: 
 #    - you to 'pip install python-twitter'
