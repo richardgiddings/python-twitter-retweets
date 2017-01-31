@@ -1,5 +1,5 @@
 #
-# Purpose: Using Python get the 95 (up to) most recent user 
+# Purpose: Using Python get the 100 (up to) most recent user 
 #          handles who retweeted a tweet.
 #
 # Requires: 
@@ -38,7 +38,7 @@ api = twitter.Api(consumer_key=data["CONSUMER_KEY"],
 with open('id.txt') as f:
     post_id = f.read()
 
-# get results (for some reason 100 returns 95 results!)
+# get results
 results = api.GetRetweets(post_id, count='100')
 
 # print results
